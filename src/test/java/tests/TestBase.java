@@ -15,7 +15,7 @@ public class TestBase {
     @BeforeAll
     static void configuration() {
 
-        Configuration.baseUrl = System.getProperty("baseUrl", "https://universe-data.ru/");
+        Configuration.baseUrl = System.getProperty("baseUrl", "https://universe-data.ru");
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.pageLoadStrategy = "eager";
