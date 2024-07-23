@@ -59,7 +59,11 @@ gradle clean ui_tests
 ```
 ***Удалённый запуск через Jenkins:***
 ```bash
-clean ui_tests -DbaseUrl=${URL} -Dbrowser=${BROWSER} -DbrowserSize=${WINDOW_SIZE} -DwdHost={WDHOST}
+clean ui_tests
+  -DbaseUrl=${URL}
+  -Dbrowser=${BROWSER}
+  -DbrowserSize=${WINDOW_SIZE}
+  -DwdHost={WDHOST}
 ```
 <a id="allure"></a>
 ## <img alt="Allure" height="25" src="images/logo/Allure.svg" width="25"/></a><a name="Интеграция с Allure Report"></a>Интеграция с [Allure Report](https://jenkins.autotests.cloud/job/C27-universe_data_ui_tests/allure/)</a>
@@ -113,7 +117,7 @@ clean ui_tests -DbaseUrl=${URL} -Dbrowser=${BROWSER} -DbrowserSize=${WINDOW_SIZE
 <a id="telegram"></a>
 ## <img alt="Telegram" height="25" src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" width="25"/></a><a name="Уведомления в Telegram при помощи бота"></a>Уведомления в Telegram при помощи бота</a>
 <p align="center">  
-<img title="Telegram Notifications" src="images/screenshots/telegram_notifications.png" width="550">  
+<img title="Telegram Notifications" src="images/screenshots/telegram_notifications.png" width="450">  
 </p>
 
 <a id="video"></a>
